@@ -11,5 +11,5 @@ class Comment < ActiveRecord::Base
   #acts_as_votable
 
   # NOTE: Comments belong to a user
-  belongs_to :user
+  belongs_to :member
 end
